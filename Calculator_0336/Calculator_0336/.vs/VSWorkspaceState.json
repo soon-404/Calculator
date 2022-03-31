@@ -1,11 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers",
-    "\\Models",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\netcoreapp2.1",
+    "\\bin\\Release",
+    "\\obj\\Debug",
+    "\\obj\\Release",
+    "\\Properties",
     "\\Views",
-    "\\Views\\Home",
-    "\\Views\\Shared"
+    "\\wwwroot\\js",
+    "\\wwwroot\\lib"
   ],
   "SelectedNode": "\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
