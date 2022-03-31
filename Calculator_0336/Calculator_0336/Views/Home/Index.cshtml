@@ -27,67 +27,135 @@
 
     <script>
         var textInput = ""
+        var boolVar = false;
         function put0() {
-            textInput += "0"
+            if (boolVar == true) {
+                 textInput = "0"
+                 boolVar = false
+             }
+             else {
+                textInput += "0"
+             }
             document.getElementById("numText").innerHTML = textInput;
         }
         function put1() {
-            textInput += "1"
+            if (boolVar == true) {
+                textInput = "1"
+                boolVar = false
+            }
+            else {
+                textInput += "1"
+            }
+            
             document.getElementById("numText").innerHTML = textInput;
         }
         function put2() {
-            textInput += "2"
+             if (boolVar == true) {
+                 textInput = "2"
+                 boolVar = false
+             }
+             else {
+                textInput += "2"
+             }
             document.getElementById("numText").innerHTML = textInput;
         }
         function put3() {
-            textInput += "3"
+            if (boolVar == true) {
+                 textInput = "3"
+                 boolVar = false
+             }
+             else {
+                textInput += "3"
+             }
             document.getElementById("numText").innerHTML = textInput;
         }
         function put4() {
-            textInput += "4"
+            if (boolVar == true) {
+                 textInput = "4"
+                 boolVar = false
+             }
+             else {
+                textInput += "4"
+             }
             document.getElementById("numText").innerHTML = textInput;
         }
         function put5() {
-            textInput += "5"
+            if (boolVar == true) {
+                 textInput = "5"
+                 boolVar = false
+             }
+             else {
+                textInput += "5"
+             }
             document.getElementById("numText").innerHTML = textInput;
         }
         function put6() {
-            textInput += "6"
+            if (boolVar == true) {
+                 textInput = "6"
+                 boolVar = false
+             }
+             else {
+                textInput += "6"
+             }
             document.getElementById("numText").innerHTML = textInput;
         }
         function put7() {
-            textInput += "7"
+            if (boolVar == true) {
+                 textInput = "7"
+                 boolVar = false
+             }
+             else {
+                textInput += "7"
+             }
             document.getElementById("numText").innerHTML = textInput;
         }
         function put8() {
-            textInput += "8"
+            if (boolVar == true) {
+                 textInput = "8"
+                 boolVar = false
+             }
+             else {
+                textInput += "8"
+             }
             document.getElementById("numText").innerHTML = textInput;
         }
         function put9() {
-            textInput += "9"
+            if (boolVar == true) {
+                 textInput = "9"
+                 boolVar = false
+             }
+             else {
+                textInput += "9"
+             }
             document.getElementById("numText").innerHTML = textInput;
         }
         function putAdd() {
+            boolVar = false
             textInput += " + "
             document.getElementById("numText").innerHTML = textInput;
         }
         function putSub() {
+            boolVar = false
             textInput += " - "
             document.getElementById("numText").innerHTML = textInput;
         }
         function putMultiply() {
+            boolVar = false
             textInput += " * "
             document.getElementById("numText").innerHTML = textInput;
         }
         function putDevide() {
+            boolVar = false
             textInput += " / "
             document.getElementById("numText").innerHTML = textInput;
         }
         function putDot() {
+            boolVar = false
             textInput += "."
             document.getElementById("numText").innerHTML = textInput;
         }
         function putClear() {
+            boolVar = false
             textInput = ""
             document.getElementById("numText").innerHTML = "Enter Number";
         }
@@ -98,7 +166,8 @@
                 alert("Error input!");
             }
             else {
-                MakeReq('http://localhost:5000/Home/Calculate/?number=' + textInput.replace('+', '%2B'), 'numText'); return false;
+                boolVar = true;
+                MakeReq('/Home/Calculate/?number=' + textInput.replaceAll(" + ", " %2B "), 'numText'); return false;    
             }
         }
     </script>
