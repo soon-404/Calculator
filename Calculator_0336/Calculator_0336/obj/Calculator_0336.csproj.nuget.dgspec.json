@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\Calculator_0336\\Calculator_0336\\Calculator_0336.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Calculator\\Calculator_0336\\Calculator_0336\\Calculator_0336.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\Calculator_0336\\Calculator_0336\\Calculator_0336.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Calculator\\Calculator_0336\\Calculator_0336\\Calculator_0336.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Calculator_0336\\Calculator_0336\\Calculator_0336.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Calculator\\Calculator_0336\\Calculator_0336\\Calculator_0336.csproj",
         "projectName": "Calculator_0336",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Calculator_0336\\Calculator_0336\\Calculator_0336.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Calculator\\Calculator_0336\\Calculator_0336\\Calculator_0336.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Calculator_0336\\Calculator_0336\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Calculator\\Calculator_0336\\Calculator_0336\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
